@@ -100,3 +100,17 @@ add line `AllowUsers !nobody`
 
 #### Check access to cron jobs
 `sudo vim /etc/security/access.conf`
+
+## Checkinf File System Premissions 
+`ls -l directory_or_file`
+
+*be sure to check*
+- /etc
+- /var/log
+- /root
+- /home
+- /usr/bin, /usr/sbin
+- /etc/sudoers/
+- /var/www /var/www/html
+- /etc/ssh
+- /etc/pam.d
